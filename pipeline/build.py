@@ -7,18 +7,18 @@ from .common import CITIES, CONFIG, INTERNAL, gbfs, read_table, write_table
 
 def build_stations() -> pd.DataFrame:
     seen = read_table("station_seen", INTERNAL)
-    seen["w_lat"], seen["w_lon"] = seen.lat * seen.departures, seen.lon * seen.departures
+    seen["w_lat"], seen["w_lon"] = seen.lat * seen.events, seen.lon * seen.events
     last = seen.month.max()
     cut = (pd.Period(last[:7]) - 11).strftime("%Y-%m")
     seen["dep12"] = seen.departures.where(seen.month.str[:7] >= cut, 0)
-    names = (seen.groupby(["city", "station_id", "station_name"], as_index=False).departures.sum()
-             .sort_values("departures").drop_duplicates(["city", "station_id"], keep="last")
+    names = (seen.groupby(["city", "station_id", "station_name"], as_index=False).events.sum()
+             .sort_values("events").drop_duplicates(["city", "station_id"], keep="last")
              [["city", "station_id", "station_name"]])
     st = seen.groupby(["city", "station_id"], as_index=False).agg(
-        w_lat=("w_lat", "sum"), w_lon=("w_lon", "sum"), trips_total=("departures", "sum"),
+        w_lat=("w_lat", "sum"), w_lon=("w_lon", "sum"), events=("events", "sum"), trips_total=("departures", "sum"),
         trips_last_12m=("dep12", "sum"), first_month=("month", "min"), last_month=("month", "max"))
-    st["lat"], st["lon"] = (st.w_lat / st.trips_total).round(6), (st.w_lon / st.trips_total).round(6)
-    st = st.drop(columns=["w_lat", "w_lon"]).merge(names, on=["city", "station_id"])
+    st["lat"], st["lon"] = (st.w_lat / st.events).round(6), (st.w_lon / st.events).round(6)
+    st = st.drop(columns=["w_lat", "w_lon", "events"]).merge(names, on=["city", "station_id"])
     feeds = []
     for city in CITIES:
         try:
@@ -34,6 +34,9 @@ def build_stations() -> pd.DataFrame:
     st = st.merge(fd, on=["city", "station_id"], how="left")
     st["active_now"] = st.capacity.notna()
     st["lat"], st["lon"] = st.g_lat.fillna(st.lat), st.g_lon.fillna(st.lon)
+    # Drop demo or test stations that are nowhere near the city (for example "LA Metro Demo" in New York)
+    c_lat, c_lon = st.city.map(lambda c: CITIES[c]["lat"]), st.city.map(lambda c: CITIES[c]["lon"])
+    st = st[((st.lat - c_lat).abs() < 1.0) & ((st.lon - c_lon).abs() < 1.5)].copy()
     st["station_key"] = st.city + ":" + st.station_id
     st["city_name"] = st.city.map(lambda c: CITIES[c]["name"])
     st["system"] = st.city.map(lambda c: CITIES[c]["system"])

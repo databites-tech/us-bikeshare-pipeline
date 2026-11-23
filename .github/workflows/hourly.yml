@@ -19,9 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
@@ -29,7 +29,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Restore station status history
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v6
         with:
           path: state
           key: status-state-none
@@ -44,7 +44,7 @@ jobs:
         run: python -m pipeline.publish status
 
       - name: Save station status history
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v6
         with:
           path: state
           key: status-state-${{ github.run_id }}

@@ -131,12 +131,20 @@ def aggregate_month(parquet: Path) -> dict[str, pd.DataFrame]:
                trips, avg_duration_min, rank
         FROM k WHERE rank <= {TOP_ROUTES} ORDER BY rank"""
     q["station_seen"] = """
-        WITH a AS (
-          SELECT city, m AS month, start_station_id AS station_id, start_station_name AS name, count(*) AS n,
-                 avg(start_lat) AS lat, avg(start_lng) AS lon
-          FROM trips WHERE start_station_id IS NOT NULL GROUP BY ALL)
+        WITH e AS (
+          SELECT city, m, start_station_id AS id, start_station_name AS name, start_lat AS lat, start_lng AS lon, 1 AS dep
+          FROM trips WHERE start_station_id IS NOT NULL
+          UNION ALL
+          SELECT city, m, end_station_id, end_station_name, end_lat, end_lng, 0
+          FROM trips WHERE end_station_id IS NOT NULL),
+        a AS (
+          SELECT city, m AS month, id AS station_id, name, count(*) AS n, sum(dep) AS dep,
+                 avg(lat) AS lat, avg(lon) AS lon
+          FROM e GROUP BY ALL)
         SELECT city, month, station_id, arg_max(name, n) AS station_name,
-               round(sum(lat * n) / sum(n), 6) AS lat, round(sum(lon * n) / sum(n), 6) AS lon, sum(n) AS departures
+               round(sum(lat * n) / sum(n) FILTER (WHERE lat IS NOT NULL), 6) AS lat,
+               round(sum(lon * n) / sum(n) FILTER (WHERE lon IS NOT NULL), 6) AS lon,
+               sum(dep) AS departures, sum(n) AS events
         FROM a GROUP BY ALL ORDER BY station_id"""
     out = {k: con.execute(v).df() for k, v in q.items()}
     con.close()

@@ -54,6 +54,8 @@ Join keys: `city`, `date`, `month` and `station_key` (`city:station_id`).
   illustrative target for the strategic dashboard, not an official one.
 - **service_area_population**: residents of census tracts within 400 m of a station used in the last
   12 months (ACS 2020-2024). Recompute once a year with `python -m pipeline.population`.
+- **Known gaps**: New York has no trips on 23 February 2026 (the system was shut during a snowstorm), so
+  that day has no rows in `daily_trips`. A few demo stations far from their city are dropped from `stations`.
 - **Station states**: `empty` (0 bikes), `low` (2 bikes or fewer), `full` (0 free docks),
   `nearly_full` (2 free docks or fewer). Small e-bike "public racks" are flagged as
   `station_type = public_rack` and left out of the city-level shares.
