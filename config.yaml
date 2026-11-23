@@ -19,5 +19,6 @@ sheets:
 
 sheet_tables:
   core: [kpi_monthly, daily_trips, hourly_profile, station_monthly, routes_monthly,
-         stations, population, weather_daily, calendar, data_quality]
+         stations, population, weather_daily, calendar, data_quality,
+         station_summary, daily_city, hourly_city]   # last three are shaped for the Tableau workbook
   status: [status_latest, status_city_hourly]

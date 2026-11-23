@@ -38,6 +38,9 @@ aggregated and deleted. The repository keeps a rolling window of 25 months.
 | `weather_daily` | city, date | Temperature, rain, snow, wind |
 | `calendar` | date | Weekday, season, US federal holidays |
 | `data_quality` | city, month | Rows received, removed and kept |
+| `station_summary` | station | Last 12 months: departures, net arrivals, growth, map offsets in km (Tableau) |
+| `daily_city` | city, date, rider, bike | Daily trips with weather and day type, readable labels (Tableau) |
+| `hourly_city` | city, month, weekday, hour, rider | Hourly profile with readable labels (Tableau) |
 | `status_latest` (sheet only) | station | Bikes and docks now, % of time empty or full in 24 h and 7 days |
 | `status_city_hourly` | city, hour | Share of stations empty or full, bikes available |
 

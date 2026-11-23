@@ -8,6 +8,7 @@ import datetime as dt
 import pandas as pd
 
 from .build import build_calendar, build_kpis, build_stations
+from .tableau import build_tableau_tables
 from .common import CITIES, CONFIG, INTERNAL, read_table, trim_months, upsert, write_table
 from .trips import aggregate_month, clean_month
 from .weather import weather
@@ -68,6 +69,7 @@ def main():
     build_stations()
     k = build_kpis()
     build_calendar()
+    build_tableau_tables()
     print(k[k.month == k.month.max()][["city", "month", "trips", "yoy_growth", "pct_of_target"]].to_string(index=False))
 
 
