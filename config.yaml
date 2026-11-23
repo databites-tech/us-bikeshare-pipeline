@@ -14,9 +14,10 @@ status_station_history_days: 7
 # Google Sheets that Tableau Public reads. Paste the ID from each sheet URL: /d/<ID>/edit
 # Leave empty to skip publishing (the CSVs in data/tables are still updated).
 sheets:
-  core: ""      # monthly and daily tables (strategic, analytical, informative)
-  status: ""    # hourly station status (operational)
-
-sheets:
   core: "1VDYw7SgCDhKNGFCfTT-6I5-jdUVNYhrqyDhjoUKbrpU"      # monthly and daily tables (strategic, analytical, informative)
   status: "1ANsH1Yc5_XyA1kbcMT8Y6kwZfHALMW4e72qOapPIbDA"    # hourly station status (operational)
+
+sheet_tables:
+  core: [kpi_monthly, daily_trips, hourly_profile, station_monthly, routes_monthly,
+         stations, population, weather_daily, calendar, data_quality]
+  status: [status_latest, status_city_hourly]
