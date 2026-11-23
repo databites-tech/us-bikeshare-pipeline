@@ -1,0 +1,23 @@
+# How many months of trips the dashboards keep (25 = two full years plus one month for year-on-year)
+months_to_keep: 25
+
+# Strategic target used in kpi_monthly: same month last year + this growth.
+# Illustrative assumption for the dashboard, not an official target of the operator.
+target_growth: 0.05
+
+# Operational thresholds
+low_bikes: 2      # a station is "low" with this many bikes or fewer
+low_docks: 2      # a station is "nearly full" with this many free docks or fewer
+status_city_history_days: 60
+status_station_history_days: 7
+
+# Google Sheets that Tableau Public reads. Paste the ID from each sheet URL: /d/<ID>/edit
+# Leave empty to skip publishing (the CSVs in data/tables are still updated).
+sheets:
+  core: ""      # monthly and daily tables (strategic, analytical, informative)
+  status: ""    # hourly station status (operational)
+
+sheet_tables:
+  core: [kpi_monthly, daily_trips, hourly_profile, station_monthly, routes_monthly,
+         stations, population, weather_daily, calendar, data_quality]
+  status: [status_latest, status_city_hourly]

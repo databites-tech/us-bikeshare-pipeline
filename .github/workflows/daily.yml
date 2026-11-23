@@ -1,0 +1,56 @@
+name: Daily update
+
+# Adds newly published trip months, refreshes weather, rebuilds the tables,
+# commits them and publishes the "core" Google Sheet.
+on:
+  schedule:
+    - cron: "23 6 * * *"   # every day at 06:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Restore station status history
+        uses: actions/cache/restore@v4
+        with:
+          path: state
+          key: status-state-none
+          restore-keys: status-state-
+
+      - name: Update trips, weather and derived tables
+        run: python -m pipeline.run_daily
+
+      - name: Keep a copy of the city status history in the repo
+        run: |
+          if [ -f state/status_city_hourly.csv ]; then cp state/status_city_hourly.csv data/tables/; fi
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Data update $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Publish to Google Sheets
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python -m pipeline.publish core

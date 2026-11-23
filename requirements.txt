@@ -1,0 +1,7 @@
+duckdb>=1.1
+pandas>=2.2
+pyarrow>=17
+pyyaml>=6
+holidays>=0.60
+gspread>=6.1
+google-auth>=2.30
