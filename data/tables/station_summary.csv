@@ -304,7 +304,7 @@ boston:D32051,boston,Boston,Main St at Devens St,42.37401575,-71.06331387,20.0,5
 boston:D32052,boston,Boston,Jamaica St at South St,42.3060456272408,-71.11570891001975,19.0,2556,97,2198,grew,7.552,-24.124
 boston:D32053,boston,Boston,Sullivan Square,42.384452256358436,-71.07514854529654,19.0,4220,-344,5474,shrank,10.879,-15.421
 boston:D32054,boston,Boston,The Overlook at St. Gabriel's,42.34679008347347,-71.14549813806661,19.0,4503,-1776,5669,shrank,5.109,-19.601
-boston:D32055,boston,Boston,Boylston St at Dartmouth St,42.350287,-71.077505,19.0,8364,128,5626,grew,10.686,-19.213
+boston:D32055,boston,Boston,Boylston St at Dartmouth St,42.350257,-71.077544,,8364,128,5626,grew,10.683,-19.216
 boston:D32057,boston,Boston,Clinton St at North St,42.3607028354884,-71.05524927377701,18.0,4165,205,5183,shrank,12.512,-18.057
 boston:D32058,boston,Boston,Brighton Ave at Linden St,42.352837,-71.129675,,9008,259,11842,shrank,6.407,-18.93
 boston:D32059,boston,Boston,Shawmut Ave at Lenox St,42.33584612997077,-71.08038157224655,19.0,2082,12,2275,shrank,10.45,-20.816
@@ -2415,7 +2415,7 @@ new_york:5300.06,new_york,New York,Union Ave & Jackson St,40.7160751,-73.952029,
 new_york:5303.06,new_york,New York,Clinton St & Grand St,40.71559509,-73.9870295,54.0,80961,59,86575,shrank,4.036,-19.25
 new_york:5303.06_,new_york,New York,Clinton St & Grand St,40.71573792143338,-73.98698994965027,15.0,20206,201,11642,grew,4.04,-19.234
 new_york:5303.08,new_york,New York,Canal St & Rutgers St,40.71427487,-73.98990025,45.0,90110,43,97432,shrank,3.795,-19.397
-new_york:5308.04,new_york,New York,Metropolitan Ave & Bedford Ave,40.71534825,-73.96024116,54.0,105797,566,100904,grew,6.289,-19.278
+new_york:5308.04,new_york,New York,Metropolitan Ave & Bedford Ave,40.71534825,-73.96024116,53.0,105797,566,100904,grew,6.289,-19.278
 new_york:5308.04_,new_york,New York,Metropolitan Ave & Bedford Ave,40.715348,-73.960241,,1737,16,1247,grew,6.289,-19.278
 new_york:5308.08,new_york,New York,Berry St & N 4 St,40.717071,-73.960627,54.0,3971,78,0,new,6.257,-19.087
 new_york:5311.08,new_york,New York,Division St & Bowery,40.71419,-73.99673,74.0,46306,233,44943,grew,3.22,-19.406
@@ -3380,7 +3380,7 @@ new_york:7514.06,new_york,New York,Icahn Stadium Plaza,40.79322,-73.92396,19.0,1
 new_york:7520.07,new_york,New York,Columbus Ave & W 95 St,40.7919557,-73.968087,39.0,60413,-273,62325,shrank,5.629,-10.774
 new_york:7522.02,new_york,New York,1 Ave & E 110 St,40.7923272,-73.9383,25.0,24528,197,26094,shrank,8.135,-10.733
 new_york:7524.09,new_york,New York,West End Ave & W 94 St,40.7941654,-73.974124,31.0,26636,-325,31135,shrank,5.122,-10.529
-new_york:7524.16,new_york,New York,Riverside Dr & W 91 St,40.79313480986663,-73.97700369358063,28.0,24953,-608,25307,shrank,4.879,-10.643
+new_york:7524.16,new_york,New York,Riverside Dr & W 91 St,40.79313480986663,-73.97700369358063,59.0,24953,-608,25307,shrank,4.879,-10.643
 new_york:7528.31,new_york,New York,E 106 St & Madison Ave,40.7934337,-73.94945003,25.0,19459,25,20325,shrank,7.197,-10.61
 new_york:7538.14,new_york,New York,W 100 St & Manhattan Ave,40.795,-73.9645,39.0,33087,48,33208,shrank,5.931,-10.436
 new_york:7538.18,new_york,New York,Central Park W & W 97 St,40.79249519495111,-73.96417066463071,53.0,47521,-199,50381,shrank,5.959,-10.714
@@ -3503,7 +3503,7 @@ new_york:7840.05,new_york,New York,Courtlandt Ave & E 149 St,40.816402,-73.91954
 new_york:7840.11,new_york,New York,E 147 St & Bergen Ave,40.814673,-73.91839,25.0,4565,82,5859,shrank,9.809,-8.253
 new_york:7842.16,new_york,New York,Amsterdam Ave & W 131 St,40.816355,-73.954295,19.0,8725,-4,8328,grew,6.789,-8.066
 new_york:7844.05,new_york,New York,Barry St & Tiffany St,40.816126,-73.891559,19.0,1915,44,1788,grew,12.066,-8.091
-new_york:7845.06,new_york,New York,Grand Concourse & E 144 St,40.816576,-73.927987,23.0,9487,159,11247,shrank,9.002,-8.041
+new_york:7845.06,new_york,New York,Grand Concourse & E 144 St,40.816576,-73.927987,22.0,9487,159,11247,shrank,9.002,-8.041
 new_york:7849.10,new_york,New York,Longwood Ave & Southern Blvd,40.816343,-73.896447,24.0,4118,-956,4086,grew,11.655,-8.067
 new_york:7851.04,new_york,New York,5 Ave & W 139 St,40.815484,-73.935856,20.0,7189,7,7357,shrank,8.34,-8.163
 new_york:7853.01,new_york,New York,Westchester Ave & Jackson Ave,40.816124,-73.908116,25.0,8827,-9,8388,grew,10.673,-8.092
@@ -3970,7 +3970,7 @@ san_francisco:BK-E10,san_francisco,San Francisco,Haste St at College Ave,37.8665
 san_francisco:BK-E3,san_francisco,San Francisco,Channing Way at San Pablo Ave,37.86281710670802,-122.2902952903697,23.0,2322,274,1281,grew,19.225,-1.883
 san_francisco:BK-E7,san_francisco,San Francisco,Channing Way at Shattuck Ave,37.8658466,-122.2674431,23.0,5257,10,3420,grew,21.23,-1.547
 san_francisco:BK-E8,san_francisco,San Francisco,Fulton St at Bancroft Way,37.868135281599706,-122.26593686946156,23.0,3929,-88,3536,grew,21.362,-1.293
-san_francisco:BK-E9-1,san_francisco,San Francisco,Bancroft Way at Telegraph Ave,37.8689109,-122.2587857,23.0,14834,-630,10249,grew,21.99,-1.207
+san_francisco:BK-E9-1,san_francisco,San Francisco,Bancroft Way at Telegraph Ave,37.8689109,-122.2587857,9.0,14834,-630,10249,grew,21.99,-1.207
 san_francisco:BK-E9-2,san_francisco,San Francisco,Haste St at Telegraph Ave,37.86605793797572,-122.25883711768391,19.0,4916,-596,4714,grew,21.985,-1.523
 san_francisco:BK-F10,san_francisco,San Francisco,Derby St at College Ave,37.86175955253551,-122.25367726566597,19.0,5184,-580,3898,grew,22.438,-2.0
 san_francisco:BK-F11,san_francisco,San Francisco,Clark Kerr Campus,37.86463143267623,-122.25028388889903,23.0,2619,-122,0,new,22.736,-1.682
@@ -4093,7 +4093,7 @@ san_francisco:OK-K5-1,san_francisco,San Francisco,Telegraph Ave at 19th St,37.80
 san_francisco:OK-K5-2,san_francisco,San Francisco,19th Street BART,37.809368612134854,-122.26795077323914,31.0,10614,146,7551,grew,21.186,-7.816
 san_francisco:OK-K6,san_francisco,San Francisco,Webster St at 19th St,37.80696976095594,-122.26658821105957,27.0,2924,95,2102,grew,21.305,-8.082
 san_francisco:OK-K7,san_francisco,San Francisco,Madison St at 17th St,37.804036784023594,-122.26240932941435,19.0,3355,-75,2828,grew,21.672,-8.408
-san_francisco:OK-K9,san_francisco,San Francisco,2nd Ave at E 18th St,37.800213566969795,-122.25381016731262,35.0,3395,334,3847,shrank,22.426,-8.832
+san_francisco:OK-K9,san_francisco,San Francisco,2nd Ave at E 18th St,37.800213566969795,-122.25381016731262,34.0,3395,334,3847,shrank,22.426,-8.832
 san_francisco:OK-K9-2,san_francisco,San Francisco,E 18th St at 4th Ave,37.79920674125079,-122.25129128429244,15.0,1595,-2,0,new,22.647,-8.944
 san_francisco:OK-L0,san_francisco,San Francisco,Willow Park,37.81236254956572,-122.29609629373002,23.0,1866,-33,518,grew,18.716,-7.483
 san_francisco:OK-L1,san_francisco,San Francisco,14th St at Mandela Pkwy,37.8107432,-122.2914153,15.0,1222,-166,1284,shrank,19.127,-7.663
@@ -4233,7 +4233,7 @@ san_francisco:SF-G11,san_francisco,San Francisco,9th Ave at Geary Blvd,37.781840
 san_francisco:SF-G12,san_francisco,San Francisco,7th Ave at Clement St,37.78243851977672,-122.4653774499893,24.0,13413,542,9683,grew,3.865,-10.805
 san_francisco:SF-G13,san_francisco,San Francisco,Arguello Blvd at Geary Blvd,37.78146761537824,-122.45880603790283,19.0,11709,378,9537,grew,4.441,-10.913
 san_francisco:SF-G17,san_francisco,San Francisco,Post St at Baker St,37.783973,-122.442878,27.0,10392,-1938,5366,grew,5.839,-10.635
-san_francisco:SF-G18,san_francisco,San Francisco,Post St at Divisadero St,37.784419,-122.439361,30.0,12683,-1301,8817,grew,6.147,-10.585
+san_francisco:SF-G18,san_francisco,San Francisco,Post St at Divisadero St,37.784419,-122.439361,31.0,12683,-1301,8817,grew,6.147,-10.585
 san_francisco:SF-G19,san_francisco,San Francisco,Raymond Kimbell Playground,37.78381270927812,-122.43455886840819,31.0,20940,-124,14563,grew,6.569,-10.653
 san_francisco:SF-G20,san_francisco,San Francisco,Post St at Webster St,37.78539004090868,-122.43177297982335,31.0,24595,-69,18321,grew,6.813,-10.477
 san_francisco:SF-G20-1,san_francisco,San Francisco,Post St at Laguna St,37.785889,-122.427952,,207,-3,461,shrank,7.148,-10.422
@@ -4356,7 +4356,7 @@ san_francisco:SF-L20,san_francisco,San Francisco,Church St at Duboce Ave,37.7698
 san_francisco:SF-L21,san_francisco,San Francisco,Market St at Dolores St,37.769244,-122.4269645,19.0,26376,-1732,24185,grew,7.235,-12.27
 san_francisco:SF-L22,san_francisco,San Francisco,Valencia St at Clinton Park,37.7690102,-122.42224826223539,19.0,19314,142,15645,grew,7.649,-12.296
 san_francisco:SF-L24,san_francisco,San Francisco,Folsom St at 13th St,37.770282,-122.4154585,27.0,4741,212,5264,shrank,8.244,-12.154
-san_francisco:SF-L24-2,san_francisco,San Francisco,Harrison St at 14th St,37.7688065330825,-122.41349816322328,19.0,8584,496,6419,grew,8.416,-12.318
+san_francisco:SF-L24-2,san_francisco,San Francisco,Harrison St at 14th St,37.7688065330825,-122.41349816322328,16.0,8584,496,6419,grew,8.416,-12.318
 san_francisco:SF-L25,san_francisco,San Francisco,11th St at Bryant St,37.7700298,-122.4117258,27.0,14822,2362,12763,grew,8.572,-12.182
 san_francisco:SF-L26,san_francisco,San Francisco,Division St at Potrero Ave,37.769263,-122.407054,27.0,20820,1064,17481,grew,8.982,-12.268
 san_francisco:SF-L27,san_francisco,San Francisco,Townsend St at 7th St,37.771058,-122.402717,27.0,15602,607,12645,grew,9.362,-12.068
@@ -5014,7 +5014,7 @@ washington:31667,washington,Washington DC,2nd & V St SW / James Creek Marina,38.
 washington:31668,washington,Washington DC,1st St & Potomac Ave SE,38.871841,-77.00591,19.0,9201,372,9680,shrank,34.436,-26.546
 washington:31669,washington,Washington DC,3rd & M St SE,38.876823,-77.002161,23.0,7281,284,7680,shrank,34.76,-25.993
 washington:31670,washington,Washington DC,12th St & New York Ave NW,38.901104,-77.028061,27.0,11674,247,11853,shrank,32.523,-23.298
-washington:31671,washington,Washington DC,53rd & D St SE/C.W. Harris Elementary,38.883318,-76.925315,19.0,247,0,247,shrank,41.398,-25.272
+washington:31671,washington,Washington DC,53rd & D St SE/C.W. Harris Elementary,38.883318,-76.925315,11.0,247,0,247,shrank,41.398,-25.272
 washington:31672,washington,Washington DC,10th & H St NE,38.899984,-76.992725,19.0,10696,46,10050,grew,35.575,-23.422
 washington:31673,washington,Washington DC,Waterfront Park,38.874820772513424,-77.0207878947258,19.0,3396,370,3864,shrank,33.151,-26.215
 washington:31674,washington,Washington DC,Maine Ave & Water St SW,38.87674677186661,-77.02094480395317,19.0,9541,656,9807,shrank,33.137,-26.001
