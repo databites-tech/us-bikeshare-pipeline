@@ -14,6 +14,51 @@ Weather (Open-Meteo) ─┤
 Population (Census)  ─┘
 ```
 
+## Dashboards
+
+Four Tableau Public dashboards, one for each type of dashboard, all fed by the same pipeline and
+refreshed once a day.
+
+| | [Strategic](https://public.tableau.com/app/profile/josep.ferrer6407/viz/bikeshare_1_strategic/Strategic) | [Operational](https://public.tableau.com/app/profile/josep.ferrer6407/viz/bikeshare_2_operational/Operational) | [Analytical](https://public.tableau.com/app/profile/josep.ferrer6407/viz/bikeshare_3_analytical/Analytical) | [Informative](https://public.tableau.com/app/profile/josep.ferrer6407/viz/bikeshare_4_informative/Informative) |
+|---|---|---|---|---|
+| Audience | Network leadership | Rebalancing crews and dispatchers | Planners and analysts | Public, press, city officials |
+| Question | Are we growing as planned? | Which stations need bikes or docks today? | What drives demand, and where? | How does my city ride shared bikes? |
+| Horizon | Last 12 months against the 12 before | Latest snapshot, last 30 days | Last 25 months | Last 12 months |
+| Detail | Network and city | Station | Day, hour, station | City, explained in sentences |
+| Interactivity | One city filter | City and problem-station filters | Four filters across every chart | One city picker, the text rewrites itself |
+
+### Strategic: network scorecard
+
+Is the network growing as planned? Trips, progress against a 5% growth target, trips per resident
+and e-bike share, with station growth mapped city by city.
+[Open in Tableau Public](https://public.tableau.com/app/profile/josep.ferrer6407/viz/bikeshare_1_strategic/Strategic)
+
+![Strategic dashboard](docs/img/strategic.png)
+
+### Operational: station status
+
+Where are the empty and full stations? The latest daily snapshot of every docking
+station, the 30-day trend of the network, and the stations to refill or empty first.
+[Open in Tableau Public](https://public.tableau.com/app/profile/josep.ferrer6407/viz/bikeshare_2_operational/Operational)
+
+![Operational dashboard](docs/img/operational.png)
+
+### Analytical: demand explorer
+
+What moves demand: temperature and rain, the weekly commute, who rides and on what, and which
+stations gain or lose bikes over the year. Filter by city, rider, bike and type of day.
+[Open in Tableau Public](https://public.tableau.com/app/profile/josep.ferrer6407/viz/bikeshare_3_analytical/Analytical)
+
+![Analytical dashboard](docs/img/analytical.png)
+
+### Informative: city profile
+
+A long-form page for a general audience. Pick a city and every number and sentence updates:
+its stations, how it compares with the other four, its year and its day.
+[Open in Tableau Public](https://public.tableau.com/app/profile/josep.ferrer6407/viz/bikeshare_4_informative/Informative)
+
+![Informative dashboard](docs/img/informative.png)
+
 ## What runs
 
 | Workflow | When | What it does |
