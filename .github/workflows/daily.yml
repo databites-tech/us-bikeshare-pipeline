@@ -1,10 +1,11 @@
 name: Daily update
 
-# Adds newly published trip months, refreshes weather, rebuilds the tables,
-# commits them and publishes the "core" Google Sheet.
+# Once a day: snapshot of every station (bikes and docks), any newly published trip month,
+# weather, rebuilt tables, commit, and both Google Sheets. Tableau Public syncs once a day,
+# so a daily run is all the dashboards need.
 on:
   schedule:
-    - cron: "23 6 * * *"   # every day at 06:23 UTC
+    - cron: "7 16 * * *"   # 16:07 UTC: 11:07 in New York, 08:07 in San Francisco
   workflow_dispatch:
 
 permissions:
@@ -35,6 +36,11 @@ jobs:
           key: status-state-none
           restore-keys: status-state-
 
+      - name: Station status snapshot
+        id: status
+        continue-on-error: true   # a failing GBFS feed must not stop the trip update
+        run: python -m pipeline.status
+
       - name: Update trips, weather and derived tables
         run: python -m pipeline.run_daily
 
@@ -48,9 +54,23 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
           git diff --cached --quiet || git commit -m "Data update $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash origin main
           git push
 
-      - name: Publish to Google Sheets
+      - name: Publish core sheet
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
         run: python -m pipeline.publish core
+
+      - name: Publish status sheet
+        if: steps.status.outcome == 'success'
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python -m pipeline.publish status
+
+      - name: Save station status history
+        if: steps.status.outcome == 'success'
+        uses: actions/cache/save@v6
+        with:
+          path: state
+          key: status-state-${{ github.run_id }}

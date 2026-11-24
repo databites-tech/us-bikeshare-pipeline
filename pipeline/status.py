@@ -1,9 +1,9 @@
-"""Hourly job: snapshot of every station (bikes and docks available) for the operational dashboard.
+"""Daily snapshot of every station (bikes and docks available) for the operational dashboard.
 
 Keeps a rolling station-level history in state/ (not committed; restored from the GitHub Actions
 cache) and writes two tables:
-  status_latest       one row per station: current state plus % of time empty/full in the last 24 h and 7 days
-  status_city_hourly  one row per city and hour: share of stations empty/full, bikes available
+  status_latest       one row per station: current state plus share of snapshots empty/full (last 24 h and 7 days)
+  status_city_hourly  one row per city and snapshot: share of stations empty/full, bikes available
 
 Usage: python -m pipeline.status
 """

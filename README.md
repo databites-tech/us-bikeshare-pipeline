@@ -9,7 +9,7 @@ and informative) that refresh by themselves.
 ```
 Trip files (monthly) ─┐
 Stations (GBFS)      ─┤   GitHub Actions          data/tables/*.csv      Google Sheets      Tableau Public
-Station status (live)─┼─▶ (Python + DuckDB)  ──▶  committed to the repo ─▶ one tab per table ─▶ daily sync
+Station status      ─┼─▶ (Python + DuckDB)  ──▶  committed to the repo ─▶ one tab per table ─▶ daily sync
 Weather (Open-Meteo) ─┤
 Population (Census)  ─┘
 ```
@@ -18,8 +18,10 @@ Population (Census)  ─┘
 
 | Workflow | When | What it does |
 |---|---|---|
-| `daily.yml` | Every day, 06:23 UTC | Adds any newly published trip month, refreshes weather, rebuilds KPIs and stations, commits `data/`, publishes the **core** sheet |
-| `hourly.yml` | Every hour | Snapshot of bikes and docks at every station, publishes the **status** sheet |
+| `daily.yml` | Every day, 16:07 UTC (11:07 in New York) | Snapshot of bikes and docks at every station, adds any newly published trip month, refreshes weather, rebuilds the tables, commits `data/`, publishes the **core** and **status** sheets |
+
+Tableau Public syncs Google Sheets once a day, so one daily run is enough. GitHub may delay or skip
+scheduled runs; if a day is missed, *Run workflow* by hand.
 
 Raw trips (about 6 to 8 million a month) are never stored: each month is downloaded, cleaned,
 aggregated and deleted. The repository keeps a rolling window of 25 months.
@@ -42,7 +44,7 @@ aggregated and deleted. The repository keeps a rolling window of 25 months.
 | `daily_city` | city, date, rider, bike | Daily trips with weather and day type, readable labels (Tableau) |
 | `hourly_city` | city, month, weekday, hour, rider | Hourly profile with readable labels (Tableau) |
 | `status_latest` (sheet only) | station | Bikes and docks now, % of time empty or full in 24 h and 7 days |
-| `status_city_hourly` | city, hour | Share of stations empty or full, bikes available |
+| `status_city_hourly` | city, snapshot (one a day) | Share of stations empty or full, bikes available |
 
 Join keys: `city`, `date`, `month` and `station_key` (`city:station_id`).
 
@@ -74,7 +76,7 @@ Join keys: `city`, `date`, `month` and `station_key` (`city:station_id`).
    so Tableau Public can read them. Paste both sheet IDs into `config.yaml`.
 4. **Secret**: in the repository, *Settings → Secrets and variables → Actions → New repository secret*,
    name `GOOGLE_SERVICE_ACCOUNT_JSON`, value: the whole JSON key. Never commit the key file.
-5. **Run once by hand**: *Actions → Daily update → Run workflow*, then *Hourly station status*.
+5. **Run once by hand**: *Actions → Daily update → Run workflow*.
 6. **Tableau**: connect to each Google Sheet, build the dashboard and, when publishing to Tableau
    Public, tick *Keep my data in sync with Google Sheets*.
 
