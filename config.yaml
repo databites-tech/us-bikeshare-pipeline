@@ -18,7 +18,9 @@ sheets:
   status: "1ANsH1Yc5_XyA1kbcMT8Y6kwZfHALMW4e72qOapPIbDA"    # daily station status snapshot (operational)
 
 sheet_tables:
-  core: [kpi_monthly, daily_trips, hourly_profile, station_monthly, routes_monthly,
-         stations, population, weather_daily, calendar, data_quality,
-         station_summary, daily_city, hourly_city]   # last three are shaped for the Tableau workbook
+  # Only what the Tableau workbooks read, plus small reference tables. Google refuses to hand
+  # Tableau a Sheet over 10 MB, so the big raw tables (station_monthly, routes_monthly, stations,
+  # daily_trips, hourly_profile) stay in data/tables in this repo and are not published.
+  core: [kpi_monthly, station_summary, daily_city, hourly_city,
+         weather_daily, calendar, population, data_quality]
   status: [status_latest, status_city_hourly]

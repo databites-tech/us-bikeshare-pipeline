@@ -43,10 +43,14 @@ aggregated and deleted. The repository keeps a rolling window of 25 months.
 | `station_summary` | station | Last 12 months: departures, net arrivals, growth, map offsets in km (Tableau) |
 | `daily_city` | city, date, rider, bike | Daily trips with weather and day type, readable labels (Tableau) |
 | `hourly_city` | city, month, weekday, hour, rider | Hourly profile with readable labels (Tableau) |
-| `status_latest` (sheet only) | station | Bikes and docks now, % of time empty or full in 24 h and 7 days |
+| `status_latest` (status sheet) | station | Bikes and docks now, % of time empty or full in 24 h and 7 days |
 | `status_city_hourly` | city, snapshot (one a day) | Share of stations empty or full, bikes available |
 
 Join keys: `city`, `date`, `month` and `station_key` (`city:station_id`).
+
+**Sheets and Tableau**: the core sheet only carries the tables the workbooks read (`kpi_monthly`,
+`station_summary`, `daily_city`, `hourly_city`) plus small reference tables. Google does not let
+Tableau read a Sheet larger than 10 MB, so the large tables live only in this repository.
 
 ## Definitions
 

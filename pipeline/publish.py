@@ -55,12 +55,18 @@ def main():
     import gspread
     gc = gspread.service_account_from_dict(json.loads(key))
     sh = gc.open_by_key(sheet_id)
-    for name in CONFIG["sheet_tables"][group]:
+    names = CONFIG["sheet_tables"][group]
+    for name in names:
         df = read_table(name)
         if df.empty:
             continue
         write_worksheet(sh, name, df)
         print(f"publish {group}: {name} {len(df):,} rows", flush=True)
+    # Remove tabs that are no longer published, so the Sheet stays small enough for Tableau
+    for ws in sh.worksheets():
+        if ws.title not in names and len(sh.worksheets()) > 1:
+            sh.del_worksheet(ws)
+            print(f"publish {group}: removed old tab {ws.title}", flush=True)
 
 
 if __name__ == "__main__":
