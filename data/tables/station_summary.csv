@@ -1862,7 +1862,7 @@ new_york:3893.03,new_york,New York,Eastern Pkwy & Schenectady Ave,40.66876,-73.9
 new_york:3902.06,new_york,New York,Eastern Pkwy & Kingston Ave,40.66959,-73.94237,30.0,36290,-4156,34538,grew,7.792,-24.357
 new_york:3905.15,new_york,New York,3 St & 7 Ave,40.6703837,-73.97839676,27.0,45585,-111,43965,grew,4.762,-24.269
 new_york:3909.01,new_york,New York,Bristol St & Pitkin Ave,40.66925,-73.91262,16.0,859,25,0,new,10.294,-24.395
-new_york:3911.05,new_york,New York,Eastern Pkwy & Nostrand Ave,40.66967,-73.9503,27.0,13384,-2195,13192,grew,7.125,-24.348
+new_york:3911.05,new_york,New York,Eastern Pkwy & Nostrand Ave,40.66967,-73.9503,26.0,13384,-2195,13192,grew,7.125,-24.348
 new_york:3914.02,new_york,New York,7 St & 5 Ave,40.6704922,-73.98541675,0.0,21497,62,22054,shrank,4.172,-24.257
 new_york:3917.03,new_york,New York,St Johns Pl & Howard Ave,40.66992,-73.92002,21.0,2266,-39,2144,grew,9.672,-24.32
 new_york:3919.07,new_york,New York,Eastern Pkwy & Franklin Ave (NE Corner),40.6707767,-73.9576801,42.0,40726,-2731,38482,grew,6.505,-24.225
@@ -2213,7 +2213,7 @@ new_york:4801.10,new_york,New York,Arion Pl & Broadway,40.697891,-73.936642,20.0
 new_york:4804.02,new_york,New York,Dock 72 Way & Market St,40.69985,-73.97141,22.0,22271,721,23533,shrank,5.35,-20.998
 new_york:4804.03,new_york,New York,Flushing Ave & Clermont Ave,40.698041,-73.971485,,8841,60,0,new,5.344,-21.199
 new_york:4807.02,new_york,New York,Madison St & Cypress Ave,40.70068,-73.90742,17.0,9323,19,8975,grew,10.732,-20.906
-new_york:4812.02,new_york,New York,Nassau St & Navy St,40.69839895,-73.98068914,58.0,13849,444,17762,shrank,4.57,-21.159
+new_york:4812.02,new_york,New York,Nassau St & Navy St,40.69839895,-73.98068914,57.0,13849,444,17762,shrank,4.57,-21.159
 new_york:4812.04,new_york,New York,Sands St Gate,40.699569,-73.979827,19.0,21200,89,23979,shrank,4.642,-21.029
 new_york:4816.02,new_york,New York,Myrtle Ave & Linden St,40.69943,-73.91337,25.0,6508,-175,5293,grew,10.231,-21.045
 new_york:4816.05,new_york,New York,Myrtle Ave & Grove St,40.69905,-73.91516,23.0,7576,5,6474,grew,10.081,-21.087
@@ -2678,7 +2678,7 @@ new_york:5880.02,new_york,New York,W 4 St & 7 Ave S,40.73401143,-74.00293877,60.
 new_york:5881.01,new_york,New York,Tyler Ave & Maurice Ave,40.73394,-73.90128,19.0,1634,44,2026,shrank,11.248,-17.214
 new_york:5883.08,new_york,New York,Review Ave & Greenpoint Ave,40.734247,-73.937768,,5542,32,77,grew,8.179,-17.18
 new_york:5886.13,new_york,New York,E 20 St & FDR Dr,40.733209,-73.975681,,63074,-924,71546,shrank,4.991,-17.295
-new_york:5886.14,new_york,New York,E 20 St & Ave C,40.733485103638984,-73.97617184036619,63.0,946,35,0,new,4.949,-17.265
+new_york:5886.14,new_york,New York,E 20 St & Ave C,40.733485103638984,-73.97617184036619,75.0,946,35,0,new,4.949,-17.265
 new_york:5887.03,new_york,New York,Queens Blvd & 56 Ave,40.73481,-73.87431,38.0,6178,100,6059,grew,13.516,-17.117
 new_york:5894.01,new_york,New York,64 Rd & Grand Central Pkwy,40.73362,-73.84494,12.0,719,20,0,new,15.987,-17.25
 new_york:5896.01,new_york,New York,E 17 St & 2 Ave,40.73431166276575,-73.98372530937195,47.0,50227,115,50124,grew,4.314,-17.173
@@ -3024,7 +3024,7 @@ new_york:6536.02,new_york,New York,62 St & Northern Blvd,40.754176,-73.900318,27
 new_york:6538.11,new_york,New York,38 Ave & 29 St,40.75473,-73.93367,19.0,12959,41,11549,grew,8.524,-14.906
 new_york:6541.03,new_york,New York,E 48 St & 3 Ave,40.7546011026,-73.971878855,78.0,47187,-334,51148,shrank,5.31,-14.921
 new_york:6542.05,new_york,New York,99 St & 35 Ave,40.75404,-73.86887,23.0,1702,5,1821,shrank,13.974,-14.983
-new_york:6545.07,new_york,New York,Broadway & 51 St,40.754164,-73.908906,0.0,5468,27,6200,shrank,10.607,-14.969
+new_york:6545.07,new_york,New York,Broadway & 51 St,40.754164,-73.908906,27.0,5468,27,6200,shrank,10.607,-14.969
 new_york:6551.02,new_york,New York,W 44 St & 5 Ave,40.75500254,-73.98014437,68.0,51264,-23,51660,shrank,4.615,-14.876
 new_york:6551.11,new_york,New York,E 43 St & Madison Ave,40.75354681867074,-73.97896572947502,56.0,61848,-399,84782,shrank,4.714,-15.038
 new_york:6551.16,new_york,New York,E 46 St & Madison Ave,40.755393,-73.977601,53.0,42399,-405,19433,grew,4.829,-14.833
@@ -3503,7 +3503,7 @@ new_york:7840.05,new_york,New York,Courtlandt Ave & E 149 St,40.816402,-73.91954
 new_york:7840.11,new_york,New York,E 147 St & Bergen Ave,40.814673,-73.91839,25.0,4565,82,5859,shrank,9.809,-8.253
 new_york:7842.16,new_york,New York,Amsterdam Ave & W 131 St,40.816355,-73.954295,19.0,8725,-4,8328,grew,6.789,-8.066
 new_york:7844.05,new_york,New York,Barry St & Tiffany St,40.816126,-73.891559,19.0,1915,44,1788,grew,12.066,-8.091
-new_york:7845.06,new_york,New York,Grand Concourse & E 144 St,40.816576,-73.927987,22.0,9487,159,11247,shrank,9.002,-8.041
+new_york:7845.06,new_york,New York,Grand Concourse & E 144 St,40.816576,-73.927987,23.0,9487,159,11247,shrank,9.002,-8.041
 new_york:7849.10,new_york,New York,Longwood Ave & Southern Blvd,40.816343,-73.896447,24.0,4118,-956,4086,grew,11.655,-8.067
 new_york:7851.04,new_york,New York,5 Ave & W 139 St,40.815484,-73.935856,20.0,7189,7,7357,shrank,8.34,-8.163
 new_york:7853.01,new_york,New York,Westchester Ave & Jackson Ave,40.816124,-73.908116,25.0,8827,-9,8388,grew,10.673,-8.092
@@ -4551,7 +4551,7 @@ san_francisco:SJ-M11-3,san_francisco,San Francisco,9th St at San Fernando St,37.
 san_francisco:SJ-M14,san_francisco,San Francisco,23rd St at Santa Clara St,37.346480293729044,-121.86856960181206,19.0,763,-39,958,shrank,56.225,-59.196
 san_francisco:SJ-M4,san_francisco,San Francisco,San Carlos St at Meridian Ave,37.3233446905968,-121.91349685192107,19.0,1117,3,1172,shrank,52.283,-61.764
 san_francisco:SJ-M5,san_francisco,San Francisco,Park Ave at Race St,37.32601084794081,-121.91232740879057,23.0,276,-9,269,grew,52.386,-61.469
-san_francisco:SJ-M6,san_francisco,San Francisco,Cahill Park,37.32911866814779,-121.90457582473755,23.0,3736,-218,4320,shrank,53.066,-61.124
+san_francisco:SJ-M6,san_francisco,San Francisco,Cahill Park,37.32911866814779,-121.90457582473755,1.0,3736,-218,4320,shrank,53.066,-61.124
 san_francisco:SJ-M6-2,san_francisco,San Francisco,Park Ave at Laurel Grove Ln,37.326282324105776,-121.9049111008644,19.0,297,-21,254,grew,53.036,-61.438
 san_francisco:SJ-M7-1,san_francisco,San Francisco,San Jose Diridon Station,37.329732,-121.901782,35.0,11164,-150,7396,grew,53.311,-61.055
 san_francisco:SJ-M8-1,san_francisco,San Francisco,Almaden Blvd at San Fernando St,37.331415,-121.8932,23.0,2032,-39,2226,shrank,54.064,-60.869
