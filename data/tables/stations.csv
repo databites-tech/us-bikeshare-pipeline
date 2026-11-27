@@ -17,7 +17,7 @@ boston:A32014,boston,Boston,Bluebikes,A32014,Stadium Rd at Western Ave,42.363060
 boston:A32015,boston,Boston,Bluebikes,A32015,N. Harvard St at Harvard Way,42.366784,-71.125174,,,False,2025-07-01,2026-10-01,12452.0,8388.0,
 boston:A32016,boston,Boston,Bluebikes,A32016,Gardner St at Alcorn St,42.35320766,-71.1233029,19.0,,True,2025-09-01,2026-10-01,4955.0,4163.0,2126939746529359956
 boston:A32017,boston,Boston,Bluebikes,A32017,Commonwealth Ave at Griggs St,42.34953675197802,-71.13182827116347,15.0,,True,2024-10-01,2026-10-01,24903.0,10597.0,f83492b4-0de8-11e7-991c-3863bb43a7d0
-boston:A32018,boston,Boston,Bluebikes,A32018,Harborwalk at Central Wharf,42.35846813,-71.05040243,23.0,,True,2026-04-01,2026-10-01,3492.0,3492.0,2212258635631104970
+boston:A32018,boston,Boston,Bluebikes,A32018,Harborwalk at Central Wharf,42.35846813,-71.05040243,22.0,,True,2026-04-01,2026-10-01,3492.0,3492.0,2212258635631104970
 boston:A32019,boston,Boston,Bluebikes,A32019,175 N Harvard St,42.364474565180565,-71.12840831285212,18.0,,True,2024-10-01,2026-10-01,27782.0,12971.0,f8350129-0de8-11e7-991c-3863bb43a7d0
 boston:A32020,boston,Boston,Bluebikes,A32020,Atlantic Ave at Beach St,42.35070811,-71.05658926,20.0,,True,2025-09-01,2026-10-01,6467.0,5594.0,2126567695528519906
 boston:A32021,boston,Boston,Bluebikes,A32021,Nashua Street at Red Auerbach Way [Extension],42.3658584571002,-71.064157369577,32.0,,True,2025-04-01,2026-10-01,16337.0,10121.0,2076849845777355316
@@ -303,7 +303,7 @@ boston:D32039,boston,Boston,Bluebikes,D32039,Charlestown Navy Yard,42.3741245494
 boston:D32040,boston,Boston,Bluebikes,D32040,Williams St at Washington St,42.306539,-71.107669,23.0,,True,2024-10-01,2026-10-01,13439.0,6239.0,c202f2ca-ec1d-4dc5-a734-e0a342f23ba4
 boston:D32041,boston,Boston,Bluebikes,D32041,Stony Brook T Stop,42.316966,-71.104374,19.0,,True,2024-10-01,2026-10-01,17954.0,8066.0,c98f50f6-1901-4c64-b164-8cf33245e022
 boston:D32042,boston,Boston,Bluebikes,D32042,Park Plaza at Charles St S.,42.351828068920675,-71.06781138111728,19.0,,True,2024-10-01,2026-10-01,17564.0,6838.0,df03c61a-29d7-445d-9980-d7f058916591
-boston:D32043,boston,Boston,Bluebikes,D32043,Harrison Ave at Bennet St,42.34942609892521,-71.06209959843909,19.0,,True,2024-10-01,2026-10-01,21010.0,9408.0,fbc512a5-4b98-4821-bcfb-bb0c7ac83543
+boston:D32043,boston,Boston,Bluebikes,D32043,Harrison Ave at Bennet St,42.34942609892521,-71.06209959843909,18.0,,True,2024-10-01,2026-10-01,21010.0,9408.0,fbc512a5-4b98-4821-bcfb-bb0c7ac83543
 boston:D32044,boston,Boston,Bluebikes,D32044,Pearl St at Milk St,42.35677593,-71.05549774,20.0,,True,2025-01-01,2026-10-01,17750.0,10052.0,2040842870122359032
 boston:D32045,boston,Boston,Bluebikes,D32045,Dartmouth St at Newbury St,42.35096144421219,-71.07782810926437,19.0,,True,2024-10-01,2026-10-01,38710.0,17978.0,803a0c16-4f81-44f1-8b49-a13fcdda40c1
 boston:D32046,boston,Boston,Bluebikes,D32046,Boylston St at Exeter St,42.349589423682445,-71.0794677917329,19.0,,True,2024-10-01,2026-10-01,45744.0,20199.0,cad0e759-b605-458a-b772-768dcce81dc6
@@ -473,7 +473,7 @@ boston:M32051,boston,Boston,Bluebikes,M32051,Fresh Pond Reservation,42.3832,-71.
 boston:M32052,boston,Boston,Bluebikes,M32052,Cambridge Dept. of Public Works -147 Hampshire St.,42.37119727759414,-71.09759867191315,19.0,,True,2024-10-01,2026-10-01,36825.0,16679.0,7560f0e3-267b-4fb3-bbfa-6e02010cfcb7
 boston:M32053,boston,Boston,Bluebikes,M32053,One Memorial Drive,42.36166313878279,-71.08029352270573,19.0,,True,2024-10-01,2026-10-01,14145.0,6575.0,a825b55d-3ab3-481f-9c50-d3a7313e6843
 boston:M32054,boston,Boston,Bluebikes,M32054,699 Mt Auburn St,42.37500235137831,-71.14871613699506,25.0,,True,2024-10-01,2026-10-01,17112.0,7539.0,93381e13-cd04-4e10-ac81-9f5926aa01d5
-boston:M32055,boston,Boston,Bluebikes,M32055,Harvard St at Greene-Rose Heritage Park,42.36599432867437,-71.09522221614498,13.0,,True,2024-10-01,2026-10-01,37717.0,16934.0,70f20fcb-8e63-4015-9007-b97c525ab0a9
+boston:M32055,boston,Boston,Bluebikes,M32055,Harvard St at Greene-Rose Heritage Park,42.36599432867437,-71.09522221614498,19.0,,True,2024-10-01,2026-10-01,37717.0,16934.0,70f20fcb-8e63-4015-9007-b97c525ab0a9
 boston:M32056,boston,Boston,Bluebikes,M32056,Mass Ave at Hadley/Walden,42.39120971915856,-71.12260755160605,19.0,,True,2024-10-01,2026-10-01,16781.0,7804.0,1e3beeb4-f8e1-452c-93e5-48df78d4b313
 boston:M32057,boston,Boston,Bluebikes,M32057,Alpine Path at Concord Ave,42.38536765218425,-71.13775670528412,19.0,,True,2024-10-01,2026-10-01,3854.0,2022.0,02a4416f-80b4-4472-accd-5db482ed5b6d
 boston:M32058,boston,Boston,Bluebikes,M32058,84 Cambridgepark Dr,42.3936,-71.143941,27.0,,True,2024-10-01,2026-10-01,3378.0,1682.0,bd3d4824-7203-4edc-a314-cea2b413e886
@@ -5447,7 +5447,7 @@ new_york:5259.06,new_york,New York,Citi Bike,5259.06,Devoe St & Lorimer St,40.71
 new_york:5262.09,new_york,New York,Citi Bike,5262.09,Madison St & Montgomery St,40.713126,-73.984844,30.0,NYC District,True,2024-10-01,2026-10-01,57358.0,27461.0,66db64d1-0aca-11e7-82f6-3863bb44ef7c
 new_york:5267.08,new_york,New York,Citi Bike,5267.08,Grand St & Havemeyer St,40.71286844,-73.95698119,31.0,NYC District,True,2024-10-01,2026-10-01,96987.0,53089.0,66dc3782-0aca-11e7-82f6-3863bb44ef7c
 new_york:5267.09,new_york,New York,Citi Bike,5267.09,Roebling St & N 4 St,40.71469,-73.95739,25.0,NYC District,True,2024-10-01,2026-10-01,100985.0,43546.0,66dcf640-0aca-11e7-82f6-3863bb44ef7c
-new_york:5270.05,new_york,New York,Citi Bike,5270.05,Pike St & E Broadway,40.71406667,-73.99293911,33.0,NYC District,True,2024-10-01,2026-10-01,77481.0,37570.0,66db6889-0aca-11e7-82f6-3863bb44ef7c
+new_york:5270.05,new_york,New York,Citi Bike,5270.05,Pike St & E Broadway,40.71406667,-73.99293911,34.0,NYC District,True,2024-10-01,2026-10-01,77481.0,37570.0,66db6889-0aca-11e7-82f6-3863bb44ef7c
 new_york:5270.07,new_york,New York,Citi Bike,5270.07,Forsyth St & Canal St,40.7158155,-73.99422366,44.0,NYC District,True,2024-10-01,2026-10-01,102269.0,48532.0,66dbf518-0aca-11e7-82f6-3863bb44ef7c
 new_york:5270.09,new_york,New York,Citi Bike,5270.09,Market St & Henry St,40.71310702305908,-73.99446353316307,42.0,NYC District,True,2024-10-01,2026-10-01,107974.0,52358.0,99142ec8-c0e7-47ca-916c-c1097d48e133
 new_york:5273.01,new_york,New York,Citi Bike,5273.01,Metropolitan Ave & Stewart Ave,40.71401,-73.92793,20.0,NYC District,True,2024-10-01,2026-10-01,12344.0,5772.0,201edb67-d071-4b67-bafd-131e5c273e9f
@@ -5533,7 +5533,7 @@ new_york:5411.10,new_york,New York,Citi Bike,5411.10,Driggs Ave & N 12 St,40.720
 new_york:5414.06,new_york,New York,Citi Bike,5414.06,Allen St & Rivington St,40.72019576,-73.98997825,42.0,NYC District,True,2024-10-01,2026-10-01,166990.0,78788.0,66dbf062-0aca-11e7-82f6-3863bb44ef7c
 new_york:5414.07,new_york,New York,Citi Bike,5414.07,Delancey St & Eldridge St,40.719383,-73.991479,31.0,NYC District,True,2024-10-01,2026-10-01,59108.0,28394.0,8ea09819-cd88-4732-b047-c0549f0b370f
 new_york:5419.04,new_york,New York,Citi Bike,5419.04,N 5 St & Wythe Ave,40.718389,-73.961501,39.0,NYC District,True,2024-10-01,2026-10-01,109229.0,48778.0,1786697003367719132
-new_york:5422.04,new_york,New York,Citi Bike,5422.04,Howard St & Lafayette St,40.71910537,-73.99973337,14.0,NYC District,True,2024-10-01,2026-10-01,100225.0,46651.0,66db479e-0aca-11e7-82f6-3863bb44ef7c
+new_york:5422.04,new_york,New York,Citi Bike,5422.04,Howard St & Lafayette St,40.71910537,-73.99973337,39.0,NYC District,True,2024-10-01,2026-10-01,100225.0,46651.0,66db479e-0aca-11e7-82f6-3863bb44ef7c
 new_york:5422.09,new_york,New York,Citi Bike,5422.09,Lafayette St & Grand St,40.72028,-73.99879,78.0,NYC District,True,2024-10-01,2026-10-01,126301.0,59169.0,f54ad1f8-fe58-49ac-82ae-b742aec66829
 new_york:5430.08,new_york,New York,Citi Bike,5430.08,Franklin St & W Broadway,40.71911552,-74.00666661,33.0,NYC District,True,2024-10-01,2026-10-01,65248.0,29661.0,66db269c-0aca-11e7-82f6-3863bb44ef7c
 new_york:5430.1,new_york,New York,Citi Bike,5430.1,6 Ave & Walker St,40.719792,-74.005224,,,False,2024-10-01,2026-09-01,946.0,0.0,
@@ -5726,7 +5726,7 @@ new_york:5827.01,new_york,New York,Citi Bike,5827.01,63 Dr & 102 St,40.73244,-73
 new_york:5829.12,new_york,New York,Citi Bike,5829.12,E 11 St & Broadway,40.73261787,-73.99158043,99.0,,True,2024-10-01,2026-10-01,27855.0,25267.0,66dbc860-0aca-11e7-82f6-3863bb44ef7c
 new_york:5836.08,new_york,New York,Citi Bike,5836.08,62 Dr & 97 St,40.73236,-73.86256,24.0,NYC District,True,2026-06-01,2026-10-01,1641.0,1641.0,2206769710011354736
 new_york:5836.09,new_york,New York,Citi Bike,5836.09,62 Dr & 97 Pl,40.73282,-73.86065,18.0,NYC District,True,2026-06-01,2026-10-01,949.0,949.0,2206770641351326294
-new_york:5838.09,new_york,New York,Citi Bike,5838.09,Washington Pl & 6 Ave,40.73224119,-74.00026394,76.0,NYC District,True,2024-10-01,2026-10-01,124974.0,61225.0,66dbcf18-0aca-11e7-82f6-3863bb44ef7c
+new_york:5838.09,new_york,New York,Citi Bike,5838.09,Washington Pl & 6 Ave,40.73224119,-74.00026394,75.0,NYC District,True,2024-10-01,2026-10-01,124974.0,61225.0,66dbcf18-0aca-11e7-82f6-3863bb44ef7c
 new_york:5845.02,new_york,New York,Citi Bike,5845.02,Woodhaven Blvd & Hoffman Dr,40.73303,-73.871,30.0,NYC District,True,2024-10-01,2026-10-01,12061.0,5388.0,1890927910885612334
 new_york:5847.01,new_york,New York,Citi Bike,5847.01,Christopher St & Greenwich St,40.732916,-74.007114,,,False,2024-10-01,2026-06-01,151797.0,45355.0,
 new_york:5847.06,new_york,New York,Citi Bike,5847.06,W 10 St & Washington St,40.73342399437081,-74.00851495563984,68.0,NYC District,True,2024-10-01,2026-10-01,62914.0,38253.0,a19d37cc-6070-4e4c-b4ad-3ee21e4a11cb
@@ -6429,7 +6429,7 @@ new_york:7212.05,new_york,New York,Citi Bike,7212.05,E 85 St & 3 Ave,40.77801203
 new_york:7220.01,new_york,New York,Citi Bike,7220.01,Steinway St & 19 Ave,40.778089,-73.899558,21.0,NYC District,True,2024-10-01,2026-10-01,7487.0,4099.0,f34ea09d-32f9-492c-9124-99059bc0b5dd
 new_york:7230.1,new_york,New York,Citi Bike,7230.1,W 74 St & Columbus Ave,40.778567,-73.97755,,,False,2024-10-01,2026-09-01,1319.0,12.0,
 new_york:7230.10,new_york,New York,Citi Bike,7230.10,W 74 St & Columbus Ave,40.7785669,-73.97754961,27.0,NYC District,True,2024-10-01,2026-10-01,74571.0,34156.0,66dd515d-0aca-11e7-82f6-3863bb44ef7c
-new_york:7233.05,new_york,New York,Citi Bike,7233.05,Crescent St & Ditmars Blvd,40.7787185,-73.9145645,19.0,NYC District,True,2024-10-01,2026-10-01,15794.0,7545.0,9e99abca-c679-4788-9a4e-39066660bd6a
+new_york:7233.05,new_york,New York,Citi Bike,7233.05,Crescent St & Ditmars Blvd,40.7787185,-73.9145645,18.0,NYC District,True,2024-10-01,2026-10-01,15794.0,7545.0,9e99abca-c679-4788-9a4e-39066660bd6a
 new_york:7235.13,new_york,New York,Citi Bike,7235.13,E 88 St & 1 Ave,40.778301,-73.9488134,39.0,NYC District,True,2024-10-01,2026-10-01,86303.0,38003.0,66dde2d9-0aca-11e7-82f6-3863bb44ef7c
 new_york:7243.04,new_york,New York,Citi Bike,7243.04,E 84 St & Park Ave,40.77862688,-73.95772073,45.0,NYC District,True,2024-10-01,2026-10-01,73600.0,36976.0,66dd448f-0aca-11e7-82f6-3863bb44ef7c
 new_york:7253.04,new_york,New York,Citi Bike,7253.04,Central Park W & W 76 St,40.77896784,-73.97374737,0.0,NYC District,True,2024-10-01,2026-10-01,97172.0,43034.0,66dd4ac1-0aca-11e7-82f6-3863bb44ef7c
@@ -7089,7 +7089,7 @@ new_york:HB105,new_york,New York,Citi Bike,HB105,City Hall - Washington St & 1 S
 new_york:HB106,new_york,New York,Citi Bike,HB106,River St & Newark St,40.736722,-74.029007,,,False,2025-06-01,2026-07-01,0.0,0.0,
 new_york:HB107,new_york,New York,Citi Bike,HB107,Hudson Pl & Hoboken Terminal,40.73579286776364,-74.02837457573912,42.0,Hoboken District,True,2026-08-01,2026-10-01,0.0,0.0,2245653996122222312
 new_york:HB201,new_york,New York,Citi Bike,HB201,12 St & Sinatra Dr N,40.750604142368964,-74.02402013540268,28.0,Hoboken District,True,2024-10-01,2026-10-01,0.0,0.0,bd6f422b-d7ae-4d7e-9261-653fdd8e6888
-new_york:HB202,new_york,New York,Citi Bike,HB202,14 St Ferry - 14 St & Shipyard Ln,40.752960630464955,-74.02435272932053,32.0,Hoboken District,True,2024-10-01,2026-10-01,0.0,0.0,4a48175b-c239-4d5e-b1b8-03eda4239678
+new_york:HB202,new_york,New York,Citi Bike,HB202,14 St Ferry - 14 St & Shipyard Ln,40.752960630464955,-74.02435272932053,31.0,Hoboken District,True,2024-10-01,2026-10-01,0.0,0.0,4a48175b-c239-4d5e-b1b8-03eda4239678
 new_york:HB203,new_york,New York,Citi Bike,HB203,Bloomfield St & 15 St,40.75453,-74.02658,14.0,Hoboken District,True,2024-10-01,2026-10-01,0.0,0.0,d09709d2-e119-48c4-aa22-29432a13a35a
 new_york:HB301,new_york,New York,Citi Bike,HB301,4 St & Grand St,40.7422579775645,-74.03511106967926,18.0,Hoboken District,True,2024-10-01,2026-10-01,0.0,0.0,3d1db3fa-1df5-46c8-baf3-619b729f5bda
 new_york:HB302,new_york,New York,Citi Bike,HB302,6 St & Grand St,40.744397833095604,-74.03450086712837,18.0,Hoboken District,True,2024-10-01,2026-10-01,0.0,0.0,9d344652-976b-4c2d-bede-2ef19b0fbf13
@@ -7447,7 +7447,7 @@ san_francisco:SF-E28,san_francisco,San Francisco,Bay Wheels,SF-E28,Clay St at Ba
 san_francisco:SF-E28-2,san_francisco,San Francisco,Bay Wheels,SF-E28-2,Front St at California St,37.7930958,-122.3988357,32.0,San Francisco,True,2024-10-01,2026-10-01,21594.0,10562.0,987bd538-e619-4284-beb8-c13c65fcf38b
 san_francisco:SF-E28-4,san_francisco,San Francisco,Bay Wheels,SF-E28-4,Pine St at Market St,37.79245887188364,-122.39792529360025,23.0,San Francisco,True,2025-02-01,2026-10-01,17267.0,12161.0,2051719798880811946
 san_francisco:SF-E29-1,san_francisco,San Francisco,Bay Wheels,SF-E29-1,San Francisco Ferry Building,37.795392,-122.394203,38.0,San Francisco,True,2024-10-01,2026-10-01,60077.0,29883.0,b2e9118f-aafb-49fb-b237-4ba08e21f51f
-san_francisco:SF-E29-2,san_francisco,San Francisco,Bay Wheels,SF-E29-2,Market St at Steuart St,37.794525,-122.3948805,15.0,San Francisco,True,2024-10-01,2026-10-01,101003.0,54607.0,84b1ea89-19b6-4f78-92e2-2a161f75e67e
+san_francisco:SF-E29-2,san_francisco,San Francisco,Bay Wheels,SF-E29-2,Market St at Steuart St,37.794525,-122.3948805,27.0,San Francisco,True,2024-10-01,2026-10-01,101003.0,54607.0,84b1ea89-19b6-4f78-92e2-2a161f75e67e
 san_francisco:SF-E29-3,san_francisco,San Francisco,Bay Wheels,SF-E29-3,Mission St at Beale St,37.791246668468816,-122.39556563975691,33.0,San Francisco,True,2024-10-01,2026-10-01,34014.0,14962.0,16fea24d-ec2c-4e37-8f63-fc9f793de2cf
 san_francisco:SF-E29-4,san_francisco,San Francisco,Bay Wheels,SF-E29-4,Drumm St at Market St,37.79353013453841,-122.39647223238327,15.0,San Francisco,True,2025-02-01,2026-10-01,25415.0,17588.0,2051240974562331110
 san_francisco:SF-E29-5,san_francisco,San Francisco,Bay Wheels,SF-E29-5,Main St at Market St,37.792844,-122.396322,,,False,2025-03-01,2026-02-01,4934.0,1509.0,
@@ -7612,7 +7612,7 @@ san_francisco:SF-L20,san_francisco,San Francisco,Bay Wheels,SF-L20,Church St at 
 san_francisco:SF-L21,san_francisco,San Francisco,Bay Wheels,SF-L21,Market St at Dolores St,37.769244,-122.4269645,19.0,San Francisco,True,2024-10-01,2026-10-01,52725.0,26376.0,930fe54f-5572-4900-8910-6041386560bf
 san_francisco:SF-L22,san_francisco,San Francisco,Bay Wheels,SF-L22,Valencia St at Clinton Park,37.7690102,-122.42224826223539,19.0,San Francisco,True,2024-10-01,2026-10-01,36553.0,19314.0,dd3ef1c7-d691-4b1f-a2d2-a9b04363ad49
 san_francisco:SF-L24,san_francisco,San Francisco,Bay Wheels,SF-L24,Folsom St at 13th St,37.770282,-122.4154585,27.0,San Francisco,True,2024-10-01,2026-10-01,10532.0,4741.0,04678a3e-1ec0-4493-a3cc-b92e74ab40ec
-san_francisco:SF-L24-2,san_francisco,San Francisco,Bay Wheels,SF-L24-2,Harrison St at 14th St,37.7688065330825,-122.41349816322328,18.0,San Francisco,True,2024-10-01,2026-10-01,15549.0,8584.0,f3e171b4-04b0-418f-9d82-e62f4df245d8
+san_francisco:SF-L24-2,san_francisco,San Francisco,Bay Wheels,SF-L24-2,Harrison St at 14th St,37.7688065330825,-122.41349816322328,19.0,San Francisco,True,2024-10-01,2026-10-01,15549.0,8584.0,f3e171b4-04b0-418f-9d82-e62f4df245d8
 san_francisco:SF-L25,san_francisco,San Francisco,Bay Wheels,SF-L25,11th St at Bryant St,37.7700298,-122.4117258,27.0,San Francisco,True,2024-10-01,2026-10-01,28764.0,14822.0,a0406a84-2708-4727-84bf-9ca96894ef45
 san_francisco:SF-L26,san_francisco,San Francisco,Bay Wheels,SF-L26,Division St at Potrero Ave,37.769263,-122.407054,27.0,San Francisco,True,2024-10-01,2026-10-01,39839.0,20820.0,2f20969c-74f7-4b6a-8e23-d4d1a31b75f5
 san_francisco:SF-L27,san_francisco,San Francisco,Bay Wheels,SF-L27,Townsend St at 7th St,37.771058,-122.402717,27.0,San Francisco,True,2024-10-01,2026-10-01,29512.0,15602.0,e4e5d6b1-a335-41a9-8efe-4c4d9294d6e2
@@ -7822,7 +7822,7 @@ san_francisco:SJ-M11-3,san_francisco,San Francisco,Bay Wheels,SJ-M11-3,9th St at
 san_francisco:SJ-M14,san_francisco,San Francisco,Bay Wheels,SJ-M14,23rd St at Santa Clara St,37.346480293729044,-121.86856960181206,19.0,San Jose,True,2024-10-01,2026-10-01,1758.0,763.0,c53990d7-f965-40f4-b305-3435e1c95a71
 san_francisco:SJ-M4,san_francisco,San Francisco,Bay Wheels,SJ-M4,San Carlos St at Meridian Ave,37.3233446905968,-121.91349685192107,19.0,San Jose,True,2024-10-01,2026-10-01,2354.0,1117.0,68c89d1f-407a-4550-a2b7-ecf0ad7ee422
 san_francisco:SJ-M5,san_francisco,San Francisco,Bay Wheels,SJ-M5,Park Ave at Race St,37.32601084794081,-121.91232740879057,23.0,San Jose,True,2024-10-01,2026-10-01,566.0,276.0,45d77294-6643-4ba4-bd8b-2e8c27430dfe
-san_francisco:SJ-M6,san_francisco,San Francisco,Bay Wheels,SJ-M6,Cahill Park,37.32911866814779,-121.90457582473755,1.0,San Jose,True,2024-10-01,2026-10-01,8452.0,3736.0,28988488-fb74-4bbc-9e69-613698b2dd8c
+san_francisco:SJ-M6,san_francisco,San Francisco,Bay Wheels,SJ-M6,Cahill Park,37.32911866814779,-121.90457582473755,23.0,San Jose,True,2024-10-01,2026-10-01,8452.0,3736.0,28988488-fb74-4bbc-9e69-613698b2dd8c
 san_francisco:SJ-M6-2,san_francisco,San Francisco,Bay Wheels,SJ-M6-2,Park Ave at Laurel Grove Ln,37.326282324105776,-121.9049111008644,19.0,San Jose,True,2024-10-01,2026-10-01,571.0,297.0,14f62ff9-1893-4379-8fe4-db578da909ee
 san_francisco:SJ-M7-1,san_francisco,San Francisco,Bay Wheels,SJ-M7-1,San Jose Diridon Station,37.329732,-121.901782,35.0,San Jose,True,2024-10-01,2026-10-01,19131.0,11164.0,dc2f7685-c3e3-4536-b78b-740479cbb207
 san_francisco:SJ-M8-1,san_francisco,San Francisco,Bay Wheels,SJ-M8-1,Almaden Blvd at San Fernando St,37.331415,-121.8932,23.0,San Jose,True,2024-10-01,2026-10-01,4406.0,2032.0,32974dc6-2aea-45d3-ae66-06f02f45ecaa
@@ -7968,7 +7968,7 @@ washington:31104,washington,Washington DC,Capital Bikeshare,31104,Adams Mill & C
 washington:31105,washington,Washington DC,Capital Bikeshare,31105,14th & Harvard St NW,38.9268,-77.0322,19.0,"Washington, DC",True,2024-10-01,2026-10-01,20844.0,10934.0,082476ba-1f3f-11e7-bf6b-3863bb334450
 washington:31106,washington,Washington DC,Capital Bikeshare,31106,Calvert & Biltmore St NW,38.923203,-77.047637,23.0,"Washington, DC",True,2024-10-01,2026-10-01,19023.0,8902.0,0824773f-1f3f-11e7-bf6b-3863bb334450
 washington:31107,washington,Washington DC,Capital Bikeshare,31107,Lamont & Mt Pleasant NW,38.9319,-77.0388,23.0,"Washington, DC",True,2024-10-01,2026-10-01,66548.0,32474.0,082477f4-1f3f-11e7-bf6b-3863bb334450
-washington:31108,washington,Washington DC,Capital Bikeshare,31108,4th & M St SW,38.876815788790616,-77.01752425622902,28.0,"Washington, DC",True,2024-10-01,2026-10-01,55955.0,26641.0,08247896-1f3f-11e7-bf6b-3863bb334450
+washington:31108,washington,Washington DC,Capital Bikeshare,31108,4th & M St SW,38.876815788790616,-77.01752425622902,27.0,"Washington, DC",True,2024-10-01,2026-10-01,55955.0,26641.0,08247896-1f3f-11e7-bf6b-3863bb334450
 washington:31109,washington,Washington DC,Capital Bikeshare,31109,7th St & Florida Ave NW,38.91613684808331,-77.02200293540955,15.0,"Washington, DC",True,2024-10-01,2026-10-01,29457.0,14939.0,082485e8-1f3f-11e7-bf6b-3863bb334450
 washington:31110,washington,Washington DC,Capital Bikeshare,31110,20th St & Florida Ave NW,38.914729,-77.045425,15.0,"Washington, DC",True,2024-10-01,2026-10-01,26024.0,11045.0,0824854e-1f3f-11e7-bf6b-3863bb334450
 washington:31111,washington,Washington DC,Capital Bikeshare,31111,10th & U St NW,38.9172,-77.0259,19.0,"Washington, DC",True,2024-10-01,2026-10-01,25298.0,11988.0,082483c2-1f3f-11e7-bf6b-3863bb334450
