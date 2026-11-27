@@ -17,7 +17,7 @@ boston:A32014,boston,Boston,Stadium Rd at Western Ave,42.3630602068896,-71.12504
 boston:A32015,boston,Boston,N. Harvard St at Harvard Way,42.366784,-71.125174,,8388,105,4064,grew,6.776,-17.382
 boston:A32016,boston,Boston,Gardner St at Alcorn St,42.35320766,-71.1233029,19.0,4163,458,792,grew,6.929,-18.889
 boston:A32017,boston,Boston,Commonwealth Ave at Griggs St,42.34953675197802,-71.13182827116347,15.0,10597,-68,12753,shrank,6.23,-19.296
-boston:A32018,boston,Boston,Harborwalk at Central Wharf,42.35846813,-71.05040243,22.0,3492,-593,0,new,12.909,-18.305
+boston:A32018,boston,Boston,Harborwalk at Central Wharf,42.35846813,-71.05040243,23.0,3492,-593,0,new,12.909,-18.305
 boston:A32019,boston,Boston,175 N Harvard St,42.364474565180565,-71.12840831285212,18.0,12971,157,12871,grew,6.511,-17.638
 boston:A32020,boston,Boston,Atlantic Ave at Beach St,42.35070811,-71.05658926,20.0,5594,158,873,grew,12.402,-19.166
 boston:A32021,boston,Boston,Nashua Street at Red Auerbach Way [Extension],42.3658584571002,-71.064157369577,32.0,10121,1819,6216,grew,11.781,-17.485
@@ -292,7 +292,7 @@ boston:D32039,boston,Boston,Charlestown Navy Yard,42.374124549426526,-71.0548119
 boston:D32040,boston,Boston,Williams St at Washington St,42.306539,-71.107669,23.0,6239,152,6487,shrank,8.212,-24.069
 boston:D32041,boston,Boston,Stony Brook T Stop,42.316966,-71.104374,19.0,8066,87,8603,shrank,8.482,-22.912
 boston:D32042,boston,Boston,Park Plaza at Charles St S.,42.351828068920675,-71.06781138111728,19.0,6838,718,9401,shrank,11.481,-19.042
-boston:D32043,boston,Boston,Harrison Ave at Bennet St,42.34942609892521,-71.06209959843909,18.0,9408,-178,10196,shrank,11.95,-19.309
+boston:D32043,boston,Boston,Harrison Ave at Bennet St,42.34942609892521,-71.06209959843909,19.0,9408,-178,10196,shrank,11.95,-19.309
 boston:D32044,boston,Boston,Pearl St at Milk St,42.35677593,-71.05549774,20.0,10052,4,7698,grew,12.491,-18.493
 boston:D32045,boston,Boston,Dartmouth St at Newbury St,42.35096144421219,-71.07782810926437,19.0,17978,527,18558,shrank,10.66,-19.138
 boston:D32046,boston,Boston,Boylston St at Exeter St,42.349589423682445,-71.0794677917329,19.0,20199,873,22946,shrank,10.525,-19.29
@@ -605,7 +605,7 @@ boston:W32002,boston,Boston,Watertown Sq,42.365260317694485,-71.18573324459247,1
 boston:W32004,boston,Boston,Arsenal Yards,42.36277388549605,-71.15764854490408,15.0,6941,246,6681,grew,4.112,-17.827
 boston:W32005,boston,Boston,Watertown City Hall,42.36759307632294,-71.18751436471939,11.0,967,94,1110,shrank,1.663,-17.292
 boston:W32006,boston,Boston,160 Arsenal St,42.36466403441681,-71.17569386959076,11.0,2092,-179,1747,grew,2.632,-17.617
-boston:W32007,boston,Boston,Nichols Ave. at Watertown Greenway,42.36762048745005,-71.1565663665533,12.0,2644,135,2526,grew,4.201,-17.289
+boston:W32007,boston,Boston,Nichols Ave. at Watertown Greenway,42.367687,-71.156026,12.0,2644,135,2526,grew,4.245,-17.282
 boston:W32009,boston,Boston,Arsenal on the Charles,42.36349850640871,-71.16421658177295,19.0,1811,195,1974,shrank,3.574,-17.746
 boston:W32010,boston,Boston,Watertown St at 5th Ave,42.36289,-71.19127,19.0,770,65,885,shrank,1.355,-17.814
 boston:W32011,boston,Boston,99 Coolidge Ave,42.363675,-71.151786,11.0,1738,0,1478,grew,4.593,-17.727
@@ -1774,7 +1774,7 @@ new_york:3585.06,new_york,New York,Nostrand Ave & Rutland Rd,40.6595,-73.95041,2
 new_york:3588.01,new_york,New York,7 Ave & 20 St,40.659053,-73.98854,20.0,9804,-26,9786,grew,3.909,-25.527
 new_york:3591.05,new_york,New York,E 93 St & Winthrop St,40.66069,-73.92491,14.0,415,21,0,new,9.261,-25.345
 new_york:3593.01,new_york,New York,Maple St & Flatbush Ave,40.66026,-73.96045,24.0,10836,24,10187,grew,6.272,-25.393
-new_york:3593.1,new_york,New York,Flatbush Ave & Lincoln Rd,40.66131,-73.96091,23.0,20502,49,19764,grew,6.233,-25.276
+new_york:3593.1,new_york,New York,Flatbush Ave & Lincoln Rd,40.66131,-73.96091,,20502,49,19764,grew,6.233,-25.276
 new_york:3596.04,new_york,New York,4 Ave & 26 St,40.660079,-73.998633,24.0,7969,179,7231,grew,3.06,-25.413
 new_york:3608.06,new_york,New York,Maple St & Albany Ave,40.66155,-73.93974,19.0,6001,50,5334,grew,8.013,-25.249
 new_york:3611.02,new_york,New York,Prospect Park SW & 10 Ave,40.659945,-73.977504,30.0,15893,-159,15976,shrank,4.837,-25.427
@@ -2656,7 +2656,7 @@ new_york:5827.01,new_york,New York,63 Dr & 102 St,40.73244,-73.85404,14.0,977,23
 new_york:5829.12,new_york,New York,E 11 St & Broadway,40.73261787,-73.99158043,99.0,25267,-85,2265,grew,3.654,-17.361
 new_york:5836.08,new_york,New York,62 Dr & 97 St,40.73236,-73.86256,24.0,1641,24,0,new,14.505,-17.389
 new_york:5836.09,new_york,New York,62 Dr & 97 Pl,40.73282,-73.86065,18.0,949,32,0,new,14.665,-17.338
-new_york:5838.09,new_york,New York,Washington Pl & 6 Ave,40.73224119,-74.00026394,75.0,61225,206,57039,grew,2.923,-17.403
+new_york:5838.09,new_york,New York,Washington Pl & 6 Ave,40.73224119,-74.00026394,76.0,61225,206,57039,grew,2.923,-17.403
 new_york:5845.02,new_york,New York,Woodhaven Blvd & Hoffman Dr,40.73303,-73.871,30.0,5388,104,5913,shrank,13.795,-17.315
 new_york:5847.01,new_york,New York,Christopher St & Greenwich St,40.732916,-74.007114,,45355,-5,95084,shrank,2.347,-17.328
 new_york:5847.06,new_york,New York,W 10 St & Washington St,40.73342399437081,-74.00851495563984,68.0,38253,256,19789,grew,2.229,-17.271
@@ -3219,7 +3219,7 @@ new_york:6920.05,new_york,New York,W 54 St & 9 Ave,40.76604,-73.98737,44.0,62940
 new_york:6921.04,new_york,New York,23 Ave & 83 St,40.76646,-73.88674,19.0,2242,51,2031,grew,12.471,-13.604
 new_york:6923.20,new_york,New York,31 St & Newtown Ave,40.7675487799971,-73.9209334552288,37.0,36761,-7147,36434,grew,9.595,-13.483
 new_york:6925.09,new_york,New York,2 Ave & E 72 St,40.768762,-73.958408,,50726,2,74073,shrank,6.443,-13.349
-new_york:6926.01,new_york,New York,W 52 St & 11 Ave,40.76727216,-73.99392888,55.0,49316,-618,49482,shrank,3.456,-13.514
+new_york:6926.01,new_york,New York,W 52 St & 11 Ave,40.76727216,-73.99392888,54.0,49316,-618,49482,shrank,3.456,-13.514
 new_york:6927.03,new_york,New York,Ditmars Blvd & 76 St,40.768442,-73.893531,19.0,3219,0,3221,shrank,11.9,-13.384
 new_york:6929.01,new_york,New York,23 St & 31 Ave,40.76663971723091,-73.9286595582962,19.0,10443,27,12536,shrank,8.945,-13.584
 new_york:6932.14,new_york,New York,E 67 St & Park Ave,40.76780080148132,-73.96592080593109,44.0,29599,-244,27084,grew,5.812,-13.455
@@ -3306,7 +3306,7 @@ new_york:7170.04,new_york,New York,35 St & 21 Ave,40.776745,-73.906558,23.0,4861
 new_york:7175.05,new_york,New York,Columbus Ave & W 72 St,40.7770575,-73.97898475,67.0,95253,230,96748,shrank,4.713,-12.428
 new_york:7178.02,new_york,New York,23 Ave & 27 St,40.776165,-73.9153175,21.0,7425,22,8175,shrank,10.068,-12.527
 new_york:7180.02,new_york,New York,E 84 St & 1 Ave,40.77565541,-73.95068615,31.0,39123,107,34642,grew,7.093,-12.584
-new_york:7183.03,new_york,New York,Riverside Blvd & W 67 St,40.777507027547976,-73.98888587951659,78.0,68099,-592,63196,grew,3.88,-12.378
+new_york:7183.03,new_york,New York,Riverside Blvd & W 67 St,40.777507027547976,-73.98888587951659,79.0,68099,-592,63196,grew,3.88,-12.378
 new_york:7186.15,new_york,New York,19 St & 24 Ave,40.7774552,-73.9225403,23.0,11985,34,12671,shrank,9.46,-12.384
 new_york:7188.10,new_york,New York,E 81 St & Park Ave,40.77677702,-73.9590097,46.0,21968,-2671,24027,shrank,6.393,-12.459
 new_york:7188.13,new_york,New York,Madison Ave & E 82 St,40.7781314,-73.96069399,34.0,42424,144,47740,shrank,6.251,-12.309
@@ -5081,7 +5081,7 @@ washington:31907,washington,Washington DC,Franklin St & S Washington St,38.79813
 washington:31908,washington,Washington DC,Radford & Osage St,38.828471,-77.086061,11.0,367,-64,374,shrank,27.512,-31.36
 washington:31909,washington,Washington DC,Mount Vernon Ave & Four Mile Run Park,38.843422,-77.064016,15.0,1799,36,1366,grew,29.417,-29.7
 washington:31910,washington,Washington DC,Potomac Ave & Main Line Blvd,38.822738,-77.049265,19.0,1888,-2,1950,shrank,30.691,-31.996
-washington:31912,washington,Washington DC,Mount Vernon Ave & Bruce St,38.841291,-77.063093,15.0,1035,29,887,grew,29.496,-29.937
+washington:31912,washington,Washington DC,Mount Vernon Ave & Bruce St,38.841291,-77.063093,14.0,1035,29,887,grew,29.496,-29.937
 washington:31913,washington,Washington DC,Commonwealth Ave & E Monroe Ave,38.82005823354218,-77.06282079219818,15.0,1167,-10,1370,shrank,29.52,-32.294
 washington:31914,washington,Washington DC,Lee Center,38.797557,-77.053766,15.0,584,-12,759,shrank,30.302,-34.791
 washington:31915,washington,Washington DC,Powhatan St & Bashford Ln,38.818748,-77.047783,15.0,934,-7,1188,shrank,30.819,-32.439
